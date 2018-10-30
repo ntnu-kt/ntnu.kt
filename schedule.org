@@ -1,0 +1,16 @@
+What we're doing.
+
+Consider making slides out of this. Check out the reveal.js integration.
+
+1. What's what? Terminology. What is part of what.
+   - Jupyter Lab
+     - Jupyter Notebook
+       - Python Notebook
+       - (Julia Notebook -- lower-level code)
+       - (R Notebook -- statistics programming)
+       - Markdown -- Simple markup language for writing text.
+2. What are we using?
+   - Jupyter Lab
+     - Jupyter Notebook
+       - Markdown -- text
+       - Python cells -- source code

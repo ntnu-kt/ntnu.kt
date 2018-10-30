@@ -1,0 +1,29 @@
+Cheat sheet: useful hotkeys when working with Jupyter.
+
+NTNU, Konstruksjonsteknikk 2018-10-05.
+
+** Start jupyter
+- Command line option: run ~jupyter lab~ from folder where you want notebooks stored.
+- Graphical option: start Jupyter Lab from the start menu or launcher icon
+** Notebook hotkeys
+I frequently use these shortcuts:
+
+| ~Esc~                     | Focus document, stop writing inside code block.         |
+| ~Enter~                   | Focus code block                                        |
+| ~Up~ / ~Down~             | Navigate to block above or below                        |
+| ~a~                       | Insert block above                                      |
+| ~b~                       | Insert block below                                      |
+| ~dd~                      | Delete cell(s)                                          |
+| ~Shift+Up~ / ~Shift+Down~ | Extend selection up/down                                |
+| ~Ctrl+Shift+C~            | View and run any command                                |
+| ~Y~                       | Change to Code cell (Python)                            |
+| ~M~                       | Change to Markdown cell (for text, images and formulas) |
+| ~Ctrl+Enter~              | Evaluate cell                                           |
+| ~Shift+Enter~             | Evaluate cell and create new cell below                 |
+
+View the command menu to find other shortcuts and commands.
+** Useful commands
+| *JupyterLab Reference* | How the whole system works. Opening files, starting notebooks, starting consoles. |
+| *Notebook Reference*   | How to use notebooks for running Python code                                      |
+| *Markdown Reference*   | How to write text with Markdown                                                   |
+| *Run all cells*        | Run all cells in the notebook                                                     |
