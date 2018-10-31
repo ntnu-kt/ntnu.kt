@@ -15,15 +15,15 @@ I frequently use these shortcuts:
 | ~b~                       | Insert block below                                      |
 | ~dd~                      | Delete cell(s)                                          |
 | ~Shift+Up~ / ~Shift+Down~ | Extend selection up/down                                |
-| ~Ctrl+Shift+C~            | View and run any command                                |
 | ~Y~                       | Change to Code cell (Python)                            |
 | ~M~                       | Change to Markdown cell (for text, images and formulas) |
 | ~Ctrl+Enter~              | Evaluate cell                                           |
 | ~Shift+Enter~             | Evaluate cell and create new cell below                 |
+| ~Ctrl+Shift+C~            | View and run any command                                |
 
 View the command menu to find other shortcuts and commands.
 ** Useful commands
-| *JupyterLab Reference* | How the whole system works. Opening files, starting notebooks, starting consoles. |
-| *Notebook Reference*   | How to use notebooks for running Python code                                      |
-| *Markdown Reference*   | How to write text with Markdown                                                   |
-| *Run all cells*        | Run all cells in the notebook                                                     |
+| *JupyterLab Reference* | How the whole system works. Opening files, starting notebooks, starting consoles.     |
+| *Notebook Reference*   | How to use notebooks for running Python code                                          |
+| *Markdown Reference*   | How to write text with Markdown                                                       |
+| *Run all cells*        | Run all cells in the notebook. Useful when opening something you've worked on before. |
