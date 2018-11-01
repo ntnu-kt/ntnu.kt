@@ -1,0 +1,15 @@
+* Progress
+** 31 Wednesday
+Small attempt at getting a package to pypi. Following the [[https://python-packaging.readthedocs.io/en/latest/minimal.html][python packaging]] guide
+linked from python.org stopped working at ~python setup.py register~.
+*** Trying to get on pypi
+- I think Anaconda may be giving me weird versions of things.
+  - I could try to use conda instead of pip
+  - But will I be able to install packages live, from a notebook, if I deploy to
+    anaconda?
+- I have a working example on my home computer, of the hotload code.
+  - I could wait and go that route.
+
+Progress: I had pip 10.0.1. I installed 18.1 now: ~pip install --user --upgrade
+pip~. Result: No change.
+*** 
