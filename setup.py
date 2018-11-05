@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="ntnu.kt",
-      version="0.0.4",
+      version="0.0.6",
       description="Standard library for NTNU Konstruksjonsteknikk",
       url="https://github.com/ntnu-kt/ntnu.kt",
       author="Teodor Heggelund",

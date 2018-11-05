@@ -6,55 +6,28 @@ Consider making slides out of this. Check out the reveal.js integration.
   Notebook.
   - Demonstrate examples from slides
   - Make room for exercises.
-* Forberedelser
-** Spørreskjema
-- Er du kjent med Python fra før?
-  1. Jeg har ikke erfaring med programmering
-  2. Ikke Python, men jeg har programmert i Matlab eller andre programmeringsspråk
-  3. Jeg kjenner til grunnleggende Python
-  4. Jeg vet hvordan jeg skal bruke lister, løkker og dictionaries i Python
-  5. Jeg kan i tillegg lage mine egne moduler og klasser i Python
-- Er du interessert i å bruke Python i forelesninger?
-  - Nei.
-  - Kun dersom jeg kan bruke <5 minutter av forelesningstid
-  - Kun dersom jeg kan bruke <20 minutter av forelesningstid
-- Har du brukt annen programmering i forelesninger?
-- Hvordan kunne du tenke deg å bruke Python i undervisning?
-** Installasjon i forkant: Anaconda Python 3.7
-Kilde: https://www.anaconda.com/download/
+** Presentation
+*** Intro
+*** Part 1: Python-programming with Jupyter Notebooks
+*** Part 2: Scientific programming with Python
+*** Part 3: Collaboration with Jupyter Notebooks
+*** Outro
+** Notebook, written live
+Should be split by part.
 
-https://mybinder.org/v2/gh/teodorlu/ntnu.kt/master?filepath=Kurs.ipynb
-* Topics
-What does progression look like? Begin with what I did before. Then look at
-additions.
-** Originalinnhold (2016)
-- Variabler
-  - Heltall
-  - Flyttall
-  - Tekst
-- If
-- Funksjoner
-** Nytt og endret (2018)
-- Verktøy: JupyterLab.
-- Numpy
-- Eksport av notebooks til PDF, HTML og Reveal.js
-- NTNU-bibliotek
-https://mybinder.org/v2/gh/teodorlu/ntnu.kt/master?filepath=Kurs.ipynb
-* What's what? Terminology. What is part of what.
-- Jupyter Lab
-  - Jupyter Notebook
-    - Python Notebook
-    - (Julia Notebook -- lower-level code)
-    - (R Notebook -- statistics programming)
-    - Markdown -- Simple markup language for writing text.
-* Jupyter -- system overview
-- Jupyter Lab
-  - Jupyter Notebook
-    - Markdown -- text
-    - Python cells -- source code
-* Cool stuff
-I'm bored. I wanna do cool stuff, what do I do?
+1. Basic.ipynb
+2. Scientific.ipynb
+3. Collaboration.ipynb
+*** Subjects from presentation
+*** Live solutions
+*** Time for own experimentation?
+** Published Python package
+*** Should I build a script I can use?
+* Schedule
+| 12:15 | Intro  |
+| 12:30 | Part 1 |
+| 12:55 | Part 2 |
+| 13:20 | Part 3 |
+| 13:45 | Outro  |
 
-- Put ntnu.kt on pypi so that it's installable.
-- Get the moment diagram example up and running.
-  - Toy with Altair!
+Questions? If needed.
