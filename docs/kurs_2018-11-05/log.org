@@ -1,5 +1,5 @@
 * Progress
-** 31 Wednesday
+** 10-31 Wednesday
 Small attempt at getting a package to pypi. Following the [[https://python-packaging.readthedocs.io/en/latest/minimal.html][python packaging]] guide
 linked from python.org stopped working at ~python setup.py register~.
 *** Trying to get on pypi
@@ -12,4 +12,11 @@ linked from python.org stopped working at ~python setup.py register~.
 
 Progress: I had pip 10.0.1. I installed 18.1 now: ~pip install --user --upgrade
 pip~. Result: No change.
-*** 
+** 11-05 Monday
+Course done.
+
+1. Was fast
+2. Didn't get the module working. Package declarations?
+   - Yup. Package declarations. =setup.py= needs to define all packages. A
+     package is a "folder"; somewhere there needs to be an =__init__.py= file.
+3. Talked to Karl
