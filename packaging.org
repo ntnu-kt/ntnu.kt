@@ -1,0 +1,26 @@
+* Package and push to pypi
+#+BEGIN_SRC bash
+rm -rf dist
+python setup.py sdist bdist_wheel
+twine upload dist/*
+#+END_SRC
+* Install package from pypi
+#+BEGIN_SRC bash
+pip install --user ntnu.kt
+#+END_SRC
+* Install package for local development
+Why would you need this? When devloping the package, it's useful to be able to
+treat it as a proper package, that is imported normally. Installation for local
+development allows this without repackaging every time. 
+
+In the project directory, run
+
+#+BEGIN_SRC bash
+pip install --user --editable .
+#+END_SRC
+
+=--user= installs to ~/.local, so that you don't mess with your system wide
+python installation. =--editable= is the magic sauce that gives "live" linking
+-- when you import the package from somewhere else now, you'll get a link
+directly to the source. So that when you do some editing of the source, the next
+run will use the updated source.
