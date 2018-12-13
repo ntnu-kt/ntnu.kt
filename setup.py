@@ -8,6 +8,6 @@ setup(name="ntnu.kt",
       author_email="teodor.heggelund@gmail.com",
       license="MIT",
       # List all packages; "All directories with __init__.py files"
-      packages=["ntnu.kt", "ntnu.kt.course"],
+      packages=["ntnu.kt", "ntnu.kt.course", "ntnu.kt.course.tkt4116"],
       zip_safe=False
       )

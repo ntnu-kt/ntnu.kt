@@ -1,15 +1,4 @@
-# Python for the Department of Structural Engineering at NTNU
-
-This package proposes a common structure for Python programming at NTNU KT
-(Dept. of Structural Engineering).
-
-## Python course at 2018-11-05
-
-Material from the course at 2018-11-05 is available
-under [docs/kurs_2018-11-05](./docs/kurs_2018-11-05).
-
-## Notebook for use in Mechanics class
-
+* Problem description
 Lecturers in Mechanics classes do not have extensive Python experience, and for
 some it's useful to have a baseline for how to use the Python toolchain
 interactively in a lecture. Early priorities based on conversation with Vegard
@@ -28,3 +17,14 @@ Aune in October 2018:
   - Lecture 6, slide 7: *Fritt opplagt bjelke med utkrager over høyre opplegg,
     belastet. Momentdiagram.*
   - Lecture 10, slide 2: *Samme eksempel, inkludert forskyvningsdiagram*
+* Solution plan
+- Encode problem parameters in python module to be imported as required.
+- Do solution in notebook
+- Visualize solution in notebook
+* Solution components
+- Problem description in library: *ntnu.kt.course.tkt4116.lecture07*
+- Test script in docs/lecture_example/tkt4116_lecture06
+  - Just for interactive use
+- Notebook in docs/lecture_example/tkt4116_lecture06
+
+In order to get started, I need to be able to run this locally.
