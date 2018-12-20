@@ -11,4 +11,4 @@ av figuren.
   V-diagram tegnes med virkningssymbol.
   M-diagram tegnes på strekksiden.
 • Skisser deformasjonsforløpet til bjelken.
-"""
+""".strip()

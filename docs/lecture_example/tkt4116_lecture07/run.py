@@ -2,7 +2,7 @@ import ntnu.kt.course.tkt4116.lecture06 as lecture
 
 # Now, what does the lecture say?
 
-print(lecture.TASK.strip())
+print(lecture.TASK)
 
 # We assign q and L as constants, and use them later.
 
